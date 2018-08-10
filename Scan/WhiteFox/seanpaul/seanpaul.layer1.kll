@@ -1,0 +1,13 @@
+Name = SeanFox;
+Version = 0.2;
+Author = "Sean Paul";
+KLL = 0.5;
+
+U"0" : CONS"Mute";
+U"Minus" : CONS"VolumeDown";
+U"Equal" : CONS"VolumeUp";
+U"Z" : ledControl( 0, 15 );
+U"X" : ledControl( 1, 15 );
+U"C" : ledControl( 5, 255 );
+U"V" : animation_control( 2 );
+U"B" : animation_control( 3 );

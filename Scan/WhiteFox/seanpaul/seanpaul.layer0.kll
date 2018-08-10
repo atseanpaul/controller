@@ -1,0 +1,15 @@
+Name = SeanFox;
+Version = 0.2;
+Author = "Sean Paul";
+KLL = 0.5;
+
+U"Esc" : U"`";
+U"CapsLock" : U"Esc";
+U"LCtrl" : U"Ctrl";
+U"Function1" : U"RCtrl";
+U"Backtick" : U"Backslash";
+U"Backslash" : U"ScrollLock";
+U"PrintScreen" : U"Pause";
+U"Ralt" : U"Function1";
+
+\\\\\\
