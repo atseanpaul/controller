@@ -11,11 +11,11 @@ Date = 2018-03-24;
 
 # This defines the minimum amount of time after a transition until allowing another transition
 # Generally switches require a minimum 5 ms debounce period
-# Giving an additional 1 ms for misc switches
+# Giving an additional 3 ms for misc switches
 # Since a decision can usually be made quite quickly, there is little latency on each press
 # However, this defines the latency at which the switch state can change
 MinDebounceTime => MinDebounceTime_define;
-MinDebounceTime = 6; # 6 ms
+MinDebounceTime = 8; # 8 ms
 
 # This defines the number of clock cycles between periodic scans
 # i.e. Between each strobe of the matrix there is a delay to allow for other system processing
